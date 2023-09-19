@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    background: linear-gradient(to bottom, #fff, rgba(57, 152, 206, 0.65));
+    font-family: 'martel', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff; /* Background color for header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #fff; /* Background color for navigation bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+/* Dropdown Styles */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dropdown Styles */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    display: inline-block;
+    margin: 20px;
+}
+
+.dropdown-toggle {
+    display: none;
+}
+
+.dropdown-button {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    cursor: pointer; /* Add cursor pointer for the language options */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Add this CSS to hide the dropdown when a language is selected */
+.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
+    display: none;
+}
+
+/* Add this CSS to show the dropdown when the checkbox is checked */
+.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
+    display: block;
+}
+
+/* Microphone Button and Upload Files Button Styles */
+#button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#microphoneButton,
+#fileInput {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Text Box Styles */
+#textBox {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    resize: none;
+}
+
+/* Copy Button Styles */
+#copyButton {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+

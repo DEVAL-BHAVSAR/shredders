@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Martel Sans:wght@600&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montaga:wght@400&display=swap"
+  />
+    <link rel="stylesheet" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <!-- Title and Logo -->
+        <div class="title-logo">
+            
+                <p class="speech-to-text">SIH1456</p>
+                <p class="speech-to-text">
+                  Speech to text transcription for Indian languages
+                </p>
+                <p class="national-technical-research">
+                  National Technical Research Organisation(NTRO)  
+                
+            </div>
+           
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">How To Use</a></li>
+            <li><a href="#">SIH</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Dropdown Button (You can add options later) -->
+        <div class="dropdown">
+            <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+            <label for="dropdown-toggle" class="dropdown-button">Select Language</label>
+            <ul class="dropdown-content">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Hindi</a></li>
+                <li><a href="#">Gujarati</a></li>
+                <li><a href="#">Tamil</a></li>
+            </ul>
+        </div>
+       
+
+        <!-- Microphone Button and Upload Files Button -->
+        <button id="microphoneButton">Start Recording</button>
+        <audio id="audioPlayer" controls></audio>
+            
+            
+            <input type="file" id="fileInput" multiple>
+        </div>
+
+        <!-- Text Box -->
+        <textarea id="textBox" rows="15"></textarea>
+
+        <!-- Copy Button -->
+        <button id="copyButton">Copy</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
